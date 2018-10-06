@@ -1,0 +1,110 @@
+@media only screen and (max-width : 1200px) 
+{   
+    .input-group-addon {
+        width: 30%;
+    }
+    .navbar-custom-form
+    {
+        margin-left: 10%;
+        width: 15%;
+    }
+    .notify-row {
+        margin-left: 18%;
+        margin-top: 1.5em;
+    }
+    .margin
+    {
+        margin-left:0em;
+    }
+    .ship
+    {
+        margin-top: 1em;
+    }
+    .package-detail
+    {
+        padding: 4.5em 3em;
+    }
+    .invoice
+    {
+        background-color: #3a3838;
+        color: white;
+        padding: 0em 0.8em;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) 
+{
+    .navbar-custom-form
+    {
+        margin-left: 13%;
+    }
+    .notify-row {
+        margin-left: 20%;
+    }
+    .consolidate
+    {
+        margin-top: 1em;
+    }
+    .payment-method
+    {
+        margin: 2.5em 0em 0em 1.1em;
+        text-align: center;
+        width: 95.5%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) 
+{
+    .notify-row {
+        margin-left: 35%;
+    }
+    .payment-method
+    {
+        width: 95.9%;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) 
+{ 
+    .notify-row {
+        margin-left: 1%;
+    }
+    .ship
+    {
+        margin-left: 0.2em;
+        margin-top: 1.5em;
+    }
+    .ship-shop-btn
+    {
+        font-weight:bolder;
+        font-size:20px;
+        padding-right: 0.5em;
+    }
+    .consolidate
+    {
+        margin-top: 1.4em;
+    }
+    .consolidation
+    {
+        margin-left: -1em;
+    }
+    .ship-shop-btn-red
+    {
+        font-size:20px;
+        padding-right: 0.2em;
+        margin-left: 1em;
+    }
+    .payment-method
+    {
+        width: 92%;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) 
+{
+
+}
