@@ -169,7 +169,7 @@
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-12">
                         <div class="pay-using">
                             <p> <h1 class="text-center" style="font-weight:bolder">Pay using <span class="pull-right" style="padding-right:1em"><i class="fas fa-times"></i></span></h1>  </p>
@@ -210,8 +210,71 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 
+                <div class="row shop-btn-menu">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                        <button class="btn ship-shop-btn">
+                            <span> 15</span> <i class="far fa-list-alt"></i> <font size="4"> Received </font>
+                        </button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <button class="btn ship-shop-btn margin consolidation">
+                            <span> 10</span> 
+                            <i class="fas fa-sitemap"></i>
+                            <font size="4"> Consolidation </font>
+                        </button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <button class="btn ship-shop-btn margin consolidate">
+                            <span> 15</span> <i class="fas fa-anchor"></i> <font size="4"> Consolidated </font>
+                        </button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <button class="btn ship-shop-btn-red margin ship">
+                            <span> 15</span> <i class="fas fa-oil-can"></i> <font size="4"> Shipped </font>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="checkbox pull-left">
+                            <label>
+                                <input type="checkbox" onClick="toggle(this)"> Select All
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <font color='red' size='4' data-toggle="modal" data-target="#myModal" data-backdrop="false" style="cursor: pointer;">Consolidation(<span id="count">0</span>)</font>
+                    </div>
+                </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          <h1 class="modal-title" id="myModalLabel">Confirm Operation</h1>
+        </div>
+        <div class="modal-body">
+            <h3>Add to Consolidation: 10 
+          <br>
+          <br>
+          After Confirming the conversion I have 10 requests
+          Can not be undone or modified</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-lg" data-dismiss="modal" style="background:transparent;border-radius:0px">Cancel</button>
+          <button type="button" class="btn btn-default btn-lg" style="background:red;border-radius:0px;border:none">Confirm</button>
+        </div>
+      </div>
+    </div>
+</div>
+
                 <div class="row">
                     <div class="col-md-4">
                         <div class="panel drug-info panel-default">
@@ -227,7 +290,13 @@
                                 </div>
                             </div>
                             <div class="panel-body" style="padding:0px">
-                                <img src="img/drug.jpg" alt="" style="width:100%">
+                                <div class="splash_image">
+                                    <label for="img1"> <img src="img/drug.jpg" alt="" style="width:100%"> </label>
+                                    <label class="container">
+                                        <input type="checkbox" name="foo" id="img1" onclick="count_checkbox()">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
                                 <div class="list-details">
                                     <div class="row" style="margin-top:0.8em">
                                         <div class="col-xs-6">
@@ -292,7 +361,13 @@
                                 </div>
                             </div>
                             <div class="panel-body" style="padding:0px">
-                                <img src="img/drug.jpg" alt="" style="width:100%">
+                                <div class="splash_image">
+                                    <label for="img2"> <img src="img/drug.jpg" alt="" style="width:100%"> </label>
+                                    <label class="container">
+                                        <input type="checkbox" name="foo" id="img2" onclick="count_checkbox()">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
                                 <div class="list-details">
                                     <div class="row" style="margin-top:0.8em">
                                         <div class="col-xs-6">
@@ -521,7 +596,13 @@
                                     </div>
                                 </div>
                                 <div class="panel-body" style="padding:0px">
-                                    <img src="img/drug.jpg" alt="" style="width:100%">
+                                    <div class="splash_image">
+                                        <label for="img3"> <img src="img/drug.jpg" alt="" style="width:100%"> </label>
+                                        <label class="container">
+                                            <input type="checkbox" name="foo" id="img3" onclick="count_checkbox()">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
                                     <div class="list-details">
                                         <div class="row" style="margin-top:0.8em">
                                             <div class="col-xs-6">
@@ -586,7 +667,13 @@
                                     </div>
                                 </div>
                                 <div class="panel-body" style="padding:0px">
-                                    <img src="img/drug.jpg" alt="" style="width:100%">
+                                    <div class="splash_image">
+                                        <label for="img4"> <img src="img/drug.jpg" alt="" style="width:100%"> </label>
+                                        <label class="container">
+                                            <input type="checkbox" name="foo" id="img4" onclick="count_checkbox()">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
                                     <div class="list-details">
                                         <div class="row" style="margin-top:0.8em">
                                             <div class="col-xs-6">
@@ -717,6 +804,26 @@
       });
 
   </script>
+
+<script language="JavaScript">
+    function toggle(source) {
+        checkboxes = document.getElementsByName('foo');
+        for(var i=0, n=checkboxes.length;i<n;i++) {
+            checkboxes[i].checked = source.checked;
+        }
+    
+        var numberOfChecked = $('input:checkbox:checked').length;
+        
+        $('#count').text(numberOfChecked);
+    }
+
+function count_checkbox()
+{
+    var numberOfChecked = $('input:checkbox:checked').length;
+        
+    $('#count').text(numberOfChecked);
+}
+</script>
 
   </body>
 </html>
