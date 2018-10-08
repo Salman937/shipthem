@@ -2,6 +2,7 @@
 {
     font-family: 'Roboto', sans-serif;
 }
+
 .white-bg 
 {
     background: #3a3838;
@@ -217,13 +218,13 @@ ul.top-menu > li > a {
     color: white;
     font-weight: 600;
     font-size: 15px;
-    padding: 7em 3em;
+    padding: 6.2em 3em;
 }
 .invoice
 {
     background-color: #3a3838;
     color: white;
-    padding: 1.9em 0.8em;
+    padding: 1.2em 0.8em;
 }
 .submit
 {
@@ -286,7 +287,7 @@ ul.top-menu > li > a {
     -ms-user-select: none;
     user-select: none;
     z-index: 88;
-    margin: -63% 0px 0px 0px;
+    margin: -62.6% 0px 0px 0px;
 }
 
 /* Hide the browser's default checkbox */
@@ -302,7 +303,7 @@ ul.top-menu > li > a {
 .checkmark {
     position: absolute;
     top: 0%;
-    left: 84.6%;
+    left: 0%;
     height: 29px;
     width: 33px;
     background-color: #eee;
