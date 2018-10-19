@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# ship-them
-=======
-# shipthem
->>>>>>> cecab24167e578c7f7748cad3510d4f9e35c0fed
+# Shipthem (PSD to HTML)
+
+![alt text](https://i.imgur.com/fLnfHTG.png)
+![alt text](https://i.imgur.com/JF7qf4O.png)
